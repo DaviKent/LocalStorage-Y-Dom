@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro de empleados</title>
+</head>
+<body>
+    
+    <h1>Registro de empleados</h1>
+
+    <input id="nombre" type="text" placeholder="Nombre">
+    <input id="apellido" type="text" placeholder="Apellido">
+
+    <select id="cargo">
+        <option value="Gerente">Gerente</option>
+        <option value="Supervisor">Supervisor</option>
+        <option value="Empleado">Empleado</option>
+    </select>
+
+    <input id="area" type="text" placeholder="Área">
+    <input id="correo" type="email" placeholder="Correo">
+    <input id="password" type="password" placeholder="Contraseña">
+    <button onclick="registrar()">Registrar</button>
+
+    <p><a href="login.html">Ir a iniciar sesión</a></p>
+    <script src="index.js"></script>
+</body>
+</html>
