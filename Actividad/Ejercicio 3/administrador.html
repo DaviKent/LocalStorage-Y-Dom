@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Administrador académico</title>
+</head>
+<body>
+    <h1>Sistema académico</h1>
+    <h2>Crear usuario</h2>
+    <input type="text" id="nombre" placeholder="Nombre">
+    <input type="text" id="apellido" placeholder="Apellido">
+    <input type="text" id="codigo" placeholder="Código">
+    <input type="text" id="correo" placeholder="Correo">
+    <input type="password" id="contrasena" placeholder="Contraseña">
+    <select id="rol">
+        <option>Administrador académico</option>
+        <option>Docente</option>
+        <option>Estudiante</option>
+    </select>
+    <button onclick="crearUsuario()">Crear usuario</button>
+    <h2>Iniciar sesión</h2>
+    <input type="text" id="correoLogin" placeholder="Correo">
+    <input type="password" id="contrasenaLogin" placeholder="Contraseña">
+    <button onclick="iniciarSesion()">Iniciar sesión</button>
+    <p id="resultado"></p>
+    <script src="ejercicio3.js"></script>
+</body>
+</html>
